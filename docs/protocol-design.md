@@ -67,7 +67,7 @@ Device broadcast name: `UD18-BLE`, `AT24-BLE`, etc `*-BLE`
 
 | Offset | Field            | Block size | Note                                |
 | -----: | ---------------- | ---------- | ----------------------------------- |
-|   `03` | Device Type      | 1 byte     | `01` [Device Type](#type-indicator) |
+|   `03` | Device Type      | 1 byte     | `02` [Device Type](#type-indicator) |
 |   `04` | Voltage          | 3 byte     | 24 bit BE (divide by 10)            |
 |   `07` | Amp              | 3 byte     | 24 bit BE (divide by 1000)          |
 |   `0A` | Watt             | 3 byte     | 24 bit BE (divide by 10)            |
